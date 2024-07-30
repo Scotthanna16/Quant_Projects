@@ -3,7 +3,8 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score
 
-
+##partially followed this tutorial, https://www.youtube.com/watch?v=1O_BenficgE, tho numerous adjustments
+## most notably the prominent stock parameters have been made,
 def pred_index(parameters, model,training_data, testing_data):
     model.fit(training_data[parameters], training_data["Buy/Sell"])
     predictions=model.predict_proba(testing_data[parameters])[:,1]
