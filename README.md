@@ -1,4 +1,2 @@
 # Quant_Projects
-This repository is for my quant finance projects and will be continuously updated
-.Also, if you are an employer there are a few repositories which are not open to the public at request of my professors, 
-I can grant access if requested.
+This repository is where I keep workbooks I create to explain quant finance topics. I generally do this for my own understanding, as I believe through explaining a topic we understand it better. I plan on adding more and more to this, if you would like to use these workbooks, feel free.
